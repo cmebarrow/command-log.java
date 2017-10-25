@@ -45,7 +45,7 @@
 
     <nukleus.version>0.11</nukleus.version>
     <nukleus.plugin.version>0.13</nukleus.plugin.version>
-    <nukleus.spec.version>0.10</nukleus.spec.version>
+    <nukleus.spec.version>develop-SNAPSHOT</nukleus.spec.version>
     <nukleus.http.spec.version>0.38</nukleus.http.spec.version>
 
     <jacoco.coverage.ratio>1.00</jacoco.coverage.ratio>
