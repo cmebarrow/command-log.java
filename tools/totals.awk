@@ -2,7 +2,7 @@
 #   (adjust capacities to match the running system)
 #   java -Dreaktor.streams.buffer.capacity=0x2000000 -Dreaktor.throttle.buffer.capacity=0x400000 -jar command-log.jar -d shm > frames.txt
 #   sort -k 1 frames.txt > sorted_frames.txt
-#   cat sorted_frames.txt | sed "s/\[//g ; s/]//g" | awk -f ~/git/reaktivity/nukleus-kafka.java/totals.awk
+#   cat sorted_frames.txt | sed "s/\[//g ; s/]//g" | awk -f ~/git/reaktivity/command-log.java/tools/totals.awk >totals.txt
 #
 # Example output:
 # Source Target Streamid	bytes transferred	observed duration of data	bytes/sec	status
